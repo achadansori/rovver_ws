@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rover-control
+Version: 0.0.1
+Summary: ROS2 package for rover joystick teleop control with ESP32 micro-ROS
+Home-page: UNKNOWN
+Maintainer: user
+Maintainer-email: user@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

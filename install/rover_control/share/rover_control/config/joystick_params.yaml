@@ -1,0 +1,21 @@
+# Joystick Teleop Configuration
+# Modify these values based on your joystick type
+
+joystick_teleop:
+  ros__parameters:
+    # Axis mapping (0-indexed)
+    # Common mappings:
+    #   Xbox/PS: Left stick Y = 1, Left stick X = 0
+    #   Generic: May vary, use 'ros2 topic echo /joy' to test
+    linear_axis: 1      # Axis for forward/backward
+    angular_axis: 0     # Axis for left/right rotation
+    
+    # Speed scaling
+    linear_scale: 0.5   # Max linear speed in m/s
+    angular_scale: 1.0  # Max angular speed in rad/s
+    
+    # Dead zone to prevent drift
+    deadzone: 0.1       # Values below this are treated as 0
+    
+    # Publishing rate
+    publish_rate: 20.0  # Hz
